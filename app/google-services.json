@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "881805587030",
+    "firebase_url": "https://mypoints-84b38.firebaseio.com",
+    "project_id": "mypoints-84b38",
+    "storage_bucket": "mypoints-84b38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881805587030:android:63600e944e93ad18c481f7",
+        "android_client_info": {
+          "package_name": "com.andorid.stiki.mypoints"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "881805587030-a6e2f2q551u0fffm64gk5ode62schlk6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.andorid.stiki.mypoints",
+            "certificate_hash": "6c13f68d06f9ea656e282421cbef6ae0e43764a1"
+          }
+        },
+        {
+          "client_id": "881805587030-osu04p2k0baatasd46fulpgjogccvq5f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnCKYas6Qzk9wc0ZXUQa2__4aYyBI-ygM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "881805587030-osu04p2k0baatasd46fulpgjogccvq5f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

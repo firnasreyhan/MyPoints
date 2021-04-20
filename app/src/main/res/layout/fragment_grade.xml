@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorBackground"
+    tools:context=".fragment.GradeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Aturan Konversi Kredit Poin"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:fontFamily="@font/montserrat_bold"
+            android:textColor="@android:color/black"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="24dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="Nilai Akhir"
+                        android:gravity="center"
+                        android:fontFamily="@font/montserrat_semibold"
+                        android:textColor="@android:color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Persyaratan"
+                        android:gravity="center"
+                        android:fontFamily="@font/montserrat_semibold"
+                        android:textColor="@android:color/black"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@android:color/darker_gray"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:text="A"
+                        android:gravity="center"
+                        android:fontFamily="@font/montserrat_semibold"
+                        android:textColor="@android:color/black"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:text="Poin &#x2265; 80."
+                            android:justificationMode="inter_word"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:fontFamily="@font/montserrat_light"
+                            android:textColor="@android:color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:text="Mengikuti 2 Kompetisi Ilmiah."
+                            android:justificationMode="inter_word"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:fontFamily="@font/montserrat_light"
+                            android:textColor="@android:color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:text="Mengikuti 1 Seminar Internasional atau 2 Seminar Nasional."
+                            android:justificationMode="inter_word"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:fontFamily="@font/montserrat_light"
+                            android:textColor="@android:color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:text="Mengikuti 2 Workshop."
+                            android:justificationMode="inter_word"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:fontFamily="@font/montserrat_light"
+                            android:textColor="@android:color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:text="Mengikuti 2 Kuliah Tamu."
+                            android:justificationMode="inter_word"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:fontFamily="@font/montserrat_light"
+                            android:textColor="@android:color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:text="Mengikuti 1 Pameran Produk."
+                            android:justificationMode="inter_word"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:fontFamily="@font/montserrat_light"
+                            android:textColor="@android:color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:text="Mengikuti 1 Studi Ekskursi."
+                            android:justificationMode="inter_word"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:fontFamily="@font/montserrat_light"
+                            android:textColor="@android:color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:text="Menulis 1 blog tentang kegiatan ilmiah yang pernah diikuti di STIKI."
+                            android:justificationMode="inter_word"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:fontFamily="@font/montserrat_light"
+                            android:textColor="@android:color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Catatan: Salah satu kegiatan yang diikuti merupakan kegiatan eksternal."
+                            android:justificationMode="inter_word"
+                            android:textStyle="bold|italic"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:fontFamily="@font/montserrat_light"
+                            android:textColor="@android:color/black"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@android:color/darker_gray"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:text="B+"
+                        android:gravity="center"
+                        android:fontFamily="@font/montserrat_semibold"
+                        android:textColor="@android:color/black"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:text="@string/_75_x2264_poin_80"
+                            android:justificationMode="inter_word"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:fontFamily="@font/montserrat_light"
+                            android:textColor="@android:color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:text="Mengikuti 1 Kompetisi Ilmiah."
+                            android:justificationMode="inter_word"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:fontFamily="@font/montserrat_light"
+                            android:textColor="@android:color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:text="Mengikuti 1 Seminar Nasional."
+                            android:justificationMode="inter_word"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:fontFamily="@font/montserrat_light"
+                            android:textColor="@android:color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:text="Mengikuti 2 Workshop."
+                            android:justificationMode="inter_word"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:fontFamily="@font/montserrat_light"
+                            android:textColor="@android:color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:text="Mengikuti 2 Kuliah Tamu."
+                            android:justificationMode="inter_word"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:fontFamily="@font/montserrat_light"
+                            android:textColor="@android:color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:text="Mengikuti 1 Pameran Produk."
+                            android:justificationMode="inter_word"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:fontFamily="@font/montserrat_light"
+                            android:textColor="@android:color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:text="Mengikuti 1 Studi Ekskursi."
+                            android:justificationMode="inter_word"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:fontFamily="@font/montserrat_light"
+                            android:textColor="@android:color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Menulis 1 blog tentang kegiatan ilmiah yang pernah diikuti di STIKI."
+                            android:justificationMode="inter_word"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:fontFamily="@font/montserrat_light"
+                            android:textColor="@android:color/black"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@android:color/darker_gray"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:text="B"
+                        android:gravity="center"
+                        android:fontFamily="@font/montserrat_semibold"
+                        android:textColor="@android:color/black"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:text="@string/_70_x2264_poin_75"
+                            android:justificationMode="inter_word"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:fontFamily="@font/montserrat_light"
+                            android:textColor="@android:color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:text="Mengikuti 1 Kompetisi Ilmiah."
+                            android:justificationMode="inter_word"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:fontFamily="@font/montserrat_light"
+                            android:textColor="@android:color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:text="Mengikuti 4 Workshop."
+                            android:justificationMode="inter_word"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:fontFamily="@font/montserrat_light"
+                            android:textColor="@android:color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:text="Mengikuti 2 Kuliah Tamu."
+                            android:justificationMode="inter_word"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:fontFamily="@font/montserrat_light"
+                            android:textColor="@android:color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:text="Mengikuti 1 Pameran Produk."
+                            android:justificationMode="inter_word"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:fontFamily="@font/montserrat_light"
+                            android:textColor="@android:color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:text="Mengikuti 1 Studi Ekskursi."
+                            android:justificationMode="inter_word"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:fontFamily="@font/montserrat_light"
+                            android:textColor="@android:color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Menulis 1 blog tentang kegiatan ilmiah yang pernah diikuti di STIKI."
+                            android:justificationMode="inter_word"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:fontFamily="@font/montserrat_light"
+                            android:textColor="@android:color/black"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

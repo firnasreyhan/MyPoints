@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PoinKu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_75_x2264_poin_80"><![CDATA[75 ≤ Poin < 80.]]></string>
+    <string name="_70_x2264_poin_75"><![CDATA[70 ≤ Poin < 75.]]></string>
+</resources>
